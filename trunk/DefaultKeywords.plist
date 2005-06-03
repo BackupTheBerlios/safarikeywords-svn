@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- 
+    don't edit. 
+    if you do, backup first and make sure to properly encode ampersands as &amp; 
+    there might be more chars that require special treatment. i don't know.
+
+	<key>name</key>
+	<string>url</string>
+	<key>name</key>
+	<string>url</string>
+-->
+<dict>
+	<key>google</key>
+	<string>http://www.google.com/search?q=%s&amp;ie=UTF-8&amp;oe=UTF-8</string>
+	<key>dozomo</key>
+	<string>http://dozomo.com/search?query=%s</string>
+	<key>fink</key>
+	<string>http://fink.sourceforge.net/pdb/search.php?s=%s</string>
+	<key>acronym</key>
+	<string>http://www.acronymsearch.com/index.php?acronym=%s</string>
+	<key>sourceforge</key>
+	<string>http://sourceforge.net/search/?type_of_search=soft&amp;words=%s</string>
+	<key>macosxapps</key>
+	<string>http://www.macosxapps.com/search.php?query=%s&amp;type=all&amp;mode=search</string>
+	<key>freshmeat</key>
+	<string>http://osx.freshmeat.net/search/?q=%s&amp;section=projects&amp;x=0&amp;y=0</string>
+	<key>indymedia</key>
+	<string>https://publish.indymedia.org/earth/servlet/OpenMir?do=search&amp;search_sort=score&amp;search_content=%s</string>
+	<key>googlenews</key>
+	<string>http://news.google.com/news?q=%s</string>
+	<key>ebay</key>
+	<string>http://search.ebay.de/search/search.dll?x=0&amp;y=0&amp;query=%s</string>
+	<key>ebay.com</key>
+	<string>http://search.ebay.com/search/search.dll?x=0&amp;y=0&amp;query=%s</string>
+	<key>freedb</key>
+	<string>http://www.freedb.org/freedb_search.php?words=%s&amp;grouping=none&amp;allfields=NO&amp;fields=artist&amp;fields=title</string>
+	<key>freshmeat</key>
+	<string>http://freshmeat.net/search/?q=%s&amp;section=projects&amp;x=0&amp;y=0</string>
+	<key>heise</key>
+	<string>http://www.heise.de/newsticker/search.shtml?T=%s</string>
+	<key>hints</key>
+	<string>http://www.macosxhints.com/search.php?query=%s&amp;type=stories&amp;mode=search&amp;keyType=all</string>
+	<key>imdb</key>
+	<string>http://imdb.com/Find?select=All&amp;for=%s&amp;Go.x=0&amp;Go.y=0</string>
+	<key>img</key>
+	<string>http://images.google.com/images?q=%s&amp;hl=en&amp;lr=&amp;ie=UTF-8&amp;sa=N&amp;tab=wi</string>
+	<key>lehmanns</key>
+	<string>http://www.lob.de/cgi-bin/work/outputexpert?stich1=%s</string>
+	<key>macupdate</key>
+	<string>http://www.macupdate.com/search.php?keywords=%s</string>
+	<key>mamasam</key>
+	<string>http://cocoa.mamasam.com/search/results.php?words=%s</string>
+	<key>oreillynet</key>
+	<string>http://www.oreillynet.com/search/index.ncsp?sp-k=all&amp;sp-q=%s&amp;search=Go</string>
+	<key>php</key>
+	<string>http://de.php.net/manual-lookup.php?pattern=%s</string>
+	<key>slashdot</key>
+	<string>http://slashdot.org/search.pl?query=%s</string>
+	<key>spiegel</key>
+	<string>http://www.spiegel.de/archiv/suche/0,1518,quicktop,00.html?A_F=%s</string>
+	<key>telepolis</key>
+	<string>http://www.heise.de/tp/deutsch/html/such.html?T=%s&amp;ok.x=0&amp;ok.y=0</string>
+	<key>teoma</key>
+	<string>http://s.teoma.com/search?q=%s</string>
+	<key>vt</key>
+	<string>http://versiontracker.com/mp/new_search.m?productDB=mac&amp;mode=Quick&amp;OS_Filter=MacOSX&amp;search=%s&amp;x=0&amp;y=0</string>
+	<key>yahoo</key>
+	<string>http://search.yahoo.com/search?fr=fp-pull-web-t&amp;p=%s</string>
+	<key>zdnet</key>
+	<string>http://zdnet.search.com/search?q=%s&amp;x=0&amp;y=0</string>
+</dict>
+</plist>

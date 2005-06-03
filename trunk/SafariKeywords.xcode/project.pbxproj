@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		2700C3C5056C184600A1AAAD = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = License.txt;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		2708EE3C05691EF90090700A = {
+			children = (
+				27EAD0B80689E83B00557923,
+				271CBA65068088C20018F44B,
+				271B4B97056ADAA90036380E,
+				271B4B98056ADABA0036380E,
+				2708EE9205691F450090700A,
+				2709AAFA056ACD44008896EA,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2708EE3E05691EF90090700A = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		2708EE3F05691EF90090700A = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				OTHER_LDFLAGS = "-dead_strip";
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		2708EE4005691EF90090700A = {
+			buildSettings = {
+			};
+			buildStyles = (
+				2708EE3E05691EF90090700A,
+				2708EE3F05691EF90090700A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 2708EE3C05691EF90090700A;
+			productRefGroup = 2708EE9205691F450090700A;
+			projectDirPath = "";
+			targets = (
+				27EAD1B4068C837C00557923,
+				27EAD186068C769600557923,
+				270AE47E05612CEF0026C0EB,
+			);
+		};
+		2708EE9205691F450090700A = {
+			children = (
+				2709ABF1056AD206008896EA,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2708EEAB0569205E0090700A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SK_Prefix.pch;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		2709AAF1056ACD38008896EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2709AAFA056ACD44008896EA = {
+			children = (
+				27D466D30688AC9600B28FCA,
+				2709AAF1056ACD38008896EA,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ABF1056AD206008896EA = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = SafariKeywords.bundle;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2709ABFB056AD251008896EA = {
+			fileRef = 2709AAF1056ACD38008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709ACE9056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Debug.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACEA056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = Info;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACEB056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = Info.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACEC056AD366008896EA = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			path = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACED056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MethodSwizzling.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACEE056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MethodSwizzling.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACF3056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SafariKeywords.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACF4056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = SafariKeywords.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACF5056AD366008896EA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist;
+			path = version.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2709ACF6056AD366008896EA = {
+			fileRef = 2709ACE9056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709ACF7056AD366008896EA = {
+			fileRef = 2709ACEA056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709ACF8056AD366008896EA = {
+			fileRef = 2709ACEB056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709ACF9056AD366008896EA = {
+			fileRef = 2709ACEC056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709AD00056AD366008896EA = {
+			fileRef = 2709ACF3056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709AD01056AD366008896EA = {
+			fileRef = 2709ACF4056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709AD02056AD366008896EA = {
+			fileRef = 2709ACF5056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2709AD03056AD3B4008896EA = {
+			fileRef = 2708EEAB0569205E0090700A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		270AE47A05612CEF0026C0EB = {
+			buildActionMask = 2147483647;
+			files = (
+				2709AD03056AD3B4008896EA,
+				2709ACF6056AD366008896EA,
+				2709AD00056AD366008896EA,
+				271CBA4B068088AF0018F44B,
+				271CBA4D068088AF0018F44B,
+				271CBBEC068099C10018F44B,
+				276EA52A0681C7BE00EE9F54,
+				27D463AB06888F8A00B28FCA,
+				27D463BF06888F8F00B28FCA,
+				27EAD0EA068C547E00557923,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270AE47B05612CEF0026C0EB = {
+			buildActionMask = 2147483647;
+			files = (
+				2709ACF7056AD366008896EA,
+				2709ACF8056AD366008896EA,
+				2709ACF9056AD366008896EA,
+				2709AD02056AD366008896EA,
+				271CBA4F068088AF0018F44B,
+				276EA4910681243900EE9F54,
+				27EAD0BB0689E83B00557923,
+				27EAD0BC0689E83B00557923,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270AE47C05612CEF0026C0EB = {
+			buildActionMask = 2147483647;
+			files = (
+				2709AD01056AD366008896EA,
+				271CBA4C068088AF0018F44B,
+				271CBA4E068088AF0018F44B,
+				271CBBED068099C10018F44B,
+				276EA52B0681C7BE00EE9F54,
+				27D463B006888F8B00B28FCA,
+				27EAD0EB068C547E00557923,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270AE47D05612CEF0026C0EB = {
+			buildActionMask = 2147483647;
+			files = (
+				2709ABFB056AD251008896EA,
+				27D466D40688AC9600B28FCA,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270AE47E05612CEF0026C0EB = {
+			buildPhases = (
+				270AE47A05612CEF0026C0EB,
+				270AE47B05612CEF0026C0EB,
+				270AE47C05612CEF0026C0EB,
+				270AE47D05612CEF0026C0EB,
+				271CBBCA068095600018F44B,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SK_Prefix.pch;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SafariKeywords;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = SafariKeywords;
+			productName = InputManager;
+			productReference = 2709ABF1056AD206008896EA;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>InputManager</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.InputManager</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		271B4B97056ADAA90036380E = {
+			children = (
+				276EA5280681C7BE00EE9F54,
+				276EA5290681C7BE00EE9F54,
+				271CBBEA068099C10018F44B,
+				271CBBEB068099C10018F44B,
+				271CBA45068088AF0018F44B,
+				271CBA46068088AF0018F44B,
+				271CBA47068088AF0018F44B,
+				271CBA48068088AF0018F44B,
+				2709ACED056AD366008896EA,
+				2709ACEE056AD366008896EA,
+				2709ACF3056AD366008896EA,
+				2709ACF4056AD366008896EA,
+				27EAD0E8068C547E00557923,
+				27EAD0E9068C547E00557923,
+				2708EEAB0569205E0090700A,
+				2709ACE9056AD366008896EA,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271B4B98056ADABA0036380E = {
+			children = (
+				276EA4900681243900EE9F54,
+				271CBA49068088AF0018F44B,
+				2709ACEA056AD366008896EA,
+				2709ACEB056AD366008896EA,
+				2709ACEC056AD366008896EA,
+				2709ACF5056AD366008896EA,
+				2700C3C5056C184600A1AAAD,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271CBA44068088AF0018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = NSPreferences.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271CBA45068088AF0018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SKPreferences.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		271CBA46068088AF0018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = SKPreferences.m;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		271CBA47068088AF0018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SKPreferencesModule.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		271CBA48068088AF0018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = SKPreferencesModule.m;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		271CBA49068088AF0018F44B = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = SKPrefsPanel.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271CBA4B068088AF0018F44B = {
+			fileRef = 271CBA45068088AF0018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBA4C068088AF0018F44B = {
+			fileRef = 271CBA46068088AF0018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBA4D068088AF0018F44B = {
+			fileRef = 271CBA47068088AF0018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBA4E068088AF0018F44B = {
+			fileRef = 271CBA48068088AF0018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBA4F068088AF0018F44B = {
+			fileRef = 271CBA49068088AF0018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBA65068088C20018F44B = {
+			children = (
+				271CBA44068088AF0018F44B,
+			);
+			isa = PBXGroup;
+			name = "Private Headers";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271CBBCA068095600018F44B = {
+			buildActionMask = 2147483647;
+			dstPath = SafariKeywords;
+			dstSubfolderSpec = 16;
+			files = (
+				271CBBD1068095900018F44B,
+				271CBBCF0680957A0018F44B,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271CBBCF0680957A0018F44B = {
+			fileRef = 2709ABF1056AD206008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBBD1068095900018F44B = {
+			fileRef = 2709ACEA056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBBEA068099C10018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = DNDArrayController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271CBBEB068099C10018F44B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = DNDArrayController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		271CBBEC068099C10018F44B = {
+			fileRef = 271CBBEA068099C10018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		271CBBED068099C10018F44B = {
+			fileRef = 271CBBEB068099C10018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		276EA4900681243900EE9F54 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = DefaultKeywords.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		276EA4910681243900EE9F54 = {
+			fileRef = 276EA4900681243900EE9F54;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		276EA5280681C7BE00EE9F54 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SKKeyword.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		276EA5290681C7BE00EE9F54 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = SKKeyword.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		276EA52A0681C7BE00EE9F54 = {
+			fileRef = 276EA5280681C7BE00EE9F54;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		276EA52B0681C7BE00EE9F54 = {
+			fileRef = 276EA5290681C7BE00EE9F54;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D463AB06888F8A00B28FCA = {
+			fileRef = 2709ACED056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D463B006888F8B00B28FCA = {
+			fileRef = 2709ACEE056AD366008896EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D463BF06888F8F00B28FCA = {
+			fileRef = 271CBA44068088AF0018F44B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D466D30688AC9600B28FCA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WebKit.framework;
+			path = /System/Library/Frameworks/WebKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		27D466D40688AC9600B28FCA = {
+			fileRef = 27D466D30688AC9600B28FCA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27EAD0B80689E83B00557923 = {
+			children = (
+				27EAD0B90689E83B00557923,
+				27EAD0BA0689E83B00557923,
+			);
+			isa = PBXGroup;
+			path = web;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27EAD0B90689E83B00557923 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = index.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27EAD0BA0689E83B00557923 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = SK.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27EAD0BB0689E83B00557923 = {
+			fileRef = 27EAD0B90689E83B00557923;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27EAD0BC0689E83B00557923 = {
+			fileRef = 27EAD0BA0689E83B00557923;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27EAD0E8068C547E00557923 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = NSString_SKAdditions.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27EAD0E9068C547E00557923 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = NSString_SKAdditions.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27EAD0EA068C547E00557923 = {
+			fileRef = 27EAD0E8068C547E00557923;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27EAD0EB068C547E00557923 = {
+			fileRef = 27EAD0E9068C547E00557923;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27EAD185068C769600557923 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "version=\"1.0b2\"\n\n# name of the disk image \ndmg=\"${TARGET_BUILD_DIR}/SafariKeywords-${version}.dmg\"\n# src dir for disk image\ndist=\"${TARGET_BUILD_DIR}/SafariKeywords-${version}\"\n\n# remove old version of disk image\nrm \"$dmg\"\n\n# wrap in another dir\nmkdir -p \"$dist\"\ncp -r \"${TARGET_BUILD_DIR}/SafariKeywords\" \"$dist\"\n\n/usr/bin/hdiutil create -srcdir \"$dist\" \"$dmg\"\n\nrm -rf \"$dist\"";
+		};
+		27EAD186068C769600557923 = {
+			buildPhases = (
+				27EAD185068C769600557923,
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Disk Image";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				27EAD18A068C769C00557923,
+			);
+			isa = PBXAggregateTarget;
+			name = "Disk Image";
+			productName = "Disk Image";
+		};
+		27EAD189068C769C00557923 = {
+			containerPortal = 2708EE4005691EF90090700A;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 270AE47E05612CEF0026C0EB;
+			remoteInfo = SafariKeywords;
+		};
+		27EAD18A068C769C00557923 = {
+			isa = PBXTargetDependency;
+			target = 270AE47E05612CEF0026C0EB;
+			targetProxy = 27EAD189068C769C00557923;
+		};
+		27EAD1B3068C837C00557923 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"",
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+				"\"${TARGET_BUILD_DIR}/SafariKeywords-${version}-src.dmg\"",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "version=\"0.8\"\n\n# make a copy of the project dir and remove build/\nmkdir -p \"${INSTALL_DIR}\"\n${CP} -r \"${SOURCE_ROOT}\" \"${INSTALL_DIR}\"\nrm -rf \"${INSTALL_DIR}/${PROJECT}/build\"\n\n# delete existing disk image\nrm \"${TARGET_BUILD_DIR}/SafariKeywords-${version}-src.dmg\"\n\n# create disk image\n/usr/bin/hdiutil create \\\n-srcdir \"${INSTALL_DIR}/${PROJECT}-${version}\" \\\n\"${TARGET_BUILD_DIR}/SafariKeywords-${version}-src.dmg\"\n";
+		};
+		27EAD1B4068C837C00557923 = {
+			buildPhases = (
+				27EAD1B3068C837C00557923,
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Source image";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				27EAD1B8068C838200557923,
+			);
+			isa = PBXAggregateTarget;
+			name = "Source image";
+			productName = "Source image";
+		};
+		27EAD1B7068C838200557923 = {
+			containerPortal = 2708EE4005691EF90090700A;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 270AE47E05612CEF0026C0EB;
+			remoteInfo = SafariKeywords;
+		};
+		27EAD1B8068C838200557923 = {
+			isa = PBXTargetDependency;
+			target = 270AE47E05612CEF0026C0EB;
+			targetProxy = 27EAD1B7068C838200557923;
+		};
+	};
+	rootObject = 2708EE4005691EF90090700A;
+}
