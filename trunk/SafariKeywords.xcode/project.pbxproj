@@ -15,7 +15,6 @@
 		};
 		2708EE3C05691EF90090700A = {
 			children = (
-				27EAD0B80689E83B00557923,
 				271CBA65068088C20018F44B,
 				271B4B97056ADAA90036380E,
 				271B4B98056ADABA0036380E,
@@ -254,8 +253,6 @@
 				2709AD02056AD366008896EA,
 				271CBA4F068088AF0018F44B,
 				276EA4910681243900EE9F54,
-				27EAD0BB0689E83B00557923,
-				27EAD0BC0689E83B00557923,
 			);
 			isa = PBXResourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,43 +589,6 @@
 		};
 		27D466D40688AC9600B28FCA = {
 			fileRef = 27D466D30688AC9600B28FCA;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		27EAD0B80689E83B00557923 = {
-			children = (
-				27EAD0B90689E83B00557923,
-				27EAD0BA0689E83B00557923,
-			);
-			isa = PBXGroup;
-			path = web;
-			refType = 4;
-			sourceTree = "<group>";
-		};
-		27EAD0B90689E83B00557923 = {
-			fileEncoding = 30;
-			isa = PBXFileReference;
-			lastKnownFileType = text.html;
-			path = index.html;
-			refType = 4;
-			sourceTree = "<group>";
-		};
-		27EAD0BA0689E83B00557923 = {
-			isa = PBXFileReference;
-			lastKnownFileType = image.png;
-			path = SK.png;
-			refType = 4;
-			sourceTree = "<group>";
-		};
-		27EAD0BB0689E83B00557923 = {
-			fileRef = 27EAD0B90689E83B00557923;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		27EAD0BC0689E83B00557923 = {
-			fileRef = 27EAD0BA0689E83B00557923;
 			isa = PBXBuildFile;
 			settings = {
 			};
